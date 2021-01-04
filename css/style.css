@@ -683,6 +683,11 @@ footer ul {
 }
 
 @media (max-width: 600px) {
+  .grid-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
   .show {
     top: 190%;
     left: 20%;
